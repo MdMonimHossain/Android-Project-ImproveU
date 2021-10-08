@@ -7,4 +7,4 @@ Main Features:
 What's New:
 1. Get a random inspirational quote everytime opening the app
 
-<a href="https://www.google.com">Download Now!</a>
+<a href="https://i.diawi.com/tnfBbU">Download Now!</a>
