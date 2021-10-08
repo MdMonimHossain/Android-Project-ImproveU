@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ImproveU TEAM!"
+            android:layout_margin="20dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Md. Monim Hossain"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Department of CSE"
+            android:textSize="20sp"
+            android:textColor="@color/darkBlue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ID: 190104062"
+            android:textSize="20sp"
+            android:textColor="@color/darkBlue"
+            android:layout_marginBottom="20dp"/>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Syed Mushfiqur Rahman"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Department of CSE"
+            android:textSize="20sp"
+            android:textColor="@color/darkBlue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ID: 190104068"
+            android:textSize="20sp"
+            android:textColor="@color/darkBlue"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ahsanullah University of Science "
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="and Technology "
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

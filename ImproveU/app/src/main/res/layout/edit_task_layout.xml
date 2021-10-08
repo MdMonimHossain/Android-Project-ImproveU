@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="top|start"
+        android:hint="@string/task"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/editTaskDeleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="#FF584F"
+            android:text="@string/delete"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/editTaskSaveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/darkBlue"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/save"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

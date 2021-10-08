@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/slidebackground"
+    tools:context=".SignupActivity" >
+
+    <TextView
+        android:id="@+id/signupTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/signup_text"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/signupEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="@string/email"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorTransparentWhite" />
+
+    <EditText
+        android:id="@+id/signupPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorTransparentWhite"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/signupConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorTransparentWhite"
+        android:importantForAutofill="no" />
+
+    <ProgressBar
+        android:id="@+id/progressBarSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/signup_btn"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/alreadyUserTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/alreadyUser_text"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

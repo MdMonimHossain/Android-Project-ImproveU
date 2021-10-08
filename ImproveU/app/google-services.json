@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639799173043",
+    "project_id": "improveu-f960f",
+    "storage_bucket": "improveu-f960f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639799173043:android:f0c372728051e74335f5c6",
+        "android_client_info": {
+          "package_name": "com.example.improveu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639799173043-t0mdd1asfp75s118ct1o8rj8ef97du5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJEyypGNw006wCkAaUo0SGV5enBMOWRs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639799173043-t0mdd1asfp75s118ct1o8rj8ef97du5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

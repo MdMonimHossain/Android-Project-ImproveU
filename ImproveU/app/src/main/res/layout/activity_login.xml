@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/slidebackground"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/signInTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/signIn_text"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/signInEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp"
+        android:autofillHints="emailAddress"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorTransparentWhite" />
+
+    <EditText
+        android:id="@+id/signInPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:drawablePadding="12dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorTransparentWhite"
+        android:autofillHints="password" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="end"
+        android:layout_marginTop="12dp"
+        android:text="@string/forgotPassword_text"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/progressBarLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/signIn_btn"
+        android:textSize="16sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/otherMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/otherMethod_text"
+        android:textColor="@color/colorTransparentWhite" />
+
+    <com.shobhitpuri.custombuttons.GoogleSignInButton
+        android:id="@+id/googleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/google"
+        app:isDarkTheme="false"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/newUserTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/newUser_text"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
