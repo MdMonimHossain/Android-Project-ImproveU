@@ -50,8 +50,7 @@
                     android:layout_height="170dp"
                     android:layout_margin="20dp"
                     app:cardBackgroundColor="@color/white"
-                    app:cardCornerRadius="40dp"
-                    app:cardElevation="50dp">
+                    app:cardCornerRadius="40dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -87,8 +86,7 @@
                     android:layout_height="170dp"
                     android:layout_margin="20dp"
                     app:cardBackgroundColor="@color/white"
-                    app:cardCornerRadius="40dp"
-                    app:cardElevation="50dp">
+                    app:cardCornerRadius="40dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -124,8 +122,7 @@
                     android:layout_height="170dp"
                     android:layout_margin="20dp"
                     app:cardBackgroundColor="@color/white"
-                    app:cardCornerRadius="40dp"
-                    app:cardElevation="50dp">
+                    app:cardCornerRadius="40dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
