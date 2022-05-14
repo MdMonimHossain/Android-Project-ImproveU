@@ -5,7 +5,7 @@
 - Prioritize tasks by urgency and importance
 - Take notes
 - Manage expenses
-- 
+
 ### What's New:
 - Get a random inspirational quote everytime opening the app
 
