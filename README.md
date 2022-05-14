@@ -10,8 +10,6 @@
 - Get a random inspirational quote everytime opening the app
 
 ### Supported System: Android 5.0+
-<br>
-<br>
 ### Programming Language: Java
 ### Database: Firestore
 ### Libraries:
