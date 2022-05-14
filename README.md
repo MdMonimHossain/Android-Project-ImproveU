@@ -7,5 +7,4 @@ Main Features:
 What's New:
 1. Get a random inspirational quote everytime opening the app
 
-<a href="https://apkfab.com/improveu/com.example.improveu/apk?h=0db27eb95f9d7ceba8abf5fd495cff597ef5fc44dd5abde08f76025a3c0cf780">Download Link</a>
-( <a href="https://drive.google.com/file/d/1H7DO5waDMmkbfaLSp-BvWrWFpccmgihj/view?usp=sharing">Alternative Link</a> )
+[Download Link](https://apkfab.com/improveu/com.example.improveu/apk?h=0db27eb95f9d7ceba8abf5fd495cff597ef5fc44dd5abde08f76025a3c0cf780) | [Alternative Link](https://drive.google.com/file/d/1H7DO5waDMmkbfaLSp-BvWrWFpccmgihj/view?usp=sharing)
